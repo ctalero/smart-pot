@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "esp32")(type "KiCad")(uri "${KIPRJMOD}/libs/ESP32-DEVKIT-V1")(options "")(descr ""))
+  (lib (name "ssd1306")(type "KiCad")(uri "${KIPRJMOD}/libs/KiCad-SSD1306-128x64-master")(options "")(descr ""))
+  (lib (name "cd42")(type "KiCad")(uri "${KIPRJMOD}/libs/mh-cd42/mh-cd42/cd42.pretty")(options "")(descr ""))
+)

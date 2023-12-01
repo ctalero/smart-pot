@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\jacob\OneDrive\Escritorio\PCB taller de electronica\PCB taller de electronica.kicad_sch</source>
+    <date>17/11/2023 1:39:45 p. m.</date>
+    <tool>Eeschema 7.0.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>PCB taller de electronica.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="Brd1">
+      <value>SSD1306</value>
+      <footprint>SSD1306:128x64OLED</footprint>
+      <libsource lib="ssd1306" part="SSD1306" description="SSD1306 OLED"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCB taller de electronica.kicad_sch"/>
+      <property name="ki_description" value="SSD1306 OLED"/>
+      <property name="ki_keywords" value="SSD1306"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>074bbe01-d69f-48b0-9404-20468e393089</tstamps>
+    </comp>
+    <comp ref="BT1">
+      <value>Battery</value>
+      <libsource lib="Device" part="Battery" description="Multiple-cell battery"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCB taller de electronica.kicad_sch"/>
+      <property name="ki_description" value="Multiple-cell battery"/>
+      <property name="ki_keywords" value="batt voltage-source cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>add2f42f-bb59-4e93-99e7-2c7946f7f794</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04_Socket</value>
+      <footprint>Connector:FanPinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Socket" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCB taller de electronica.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>999a5726-21c5-4ce5-874b-f7167dfcb351</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x03_Socket</value>
+      <footprint>Connector:FanPinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Socket" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCB taller de electronica.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7f251655-7871-48ea-a267-440ff82d8ce4</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Barrel_Jack_Switch</value>
+      <libsource lib="Connector" part="Barrel_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCB taller de electronica.kicad_sch"/>
+      <property name="ki_description" value="DC Barrel Jack with an internal switch"/>
+      <property name="ki_keywords" value="DC power barrel jack connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a69812a-c7df-4f50-8d5b-d2be9b74f0d2</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>R</value>
+      <footprint>OptoDevice:R_LDR_5.0x4.1mm_P3mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCB taller de electronica.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>acb361f2-0d36-408e-92a0-60da98fd7455</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>R</value>
+      <footprint>OptoDevice:R_LDR_5.0x4.1mm_P3mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCB taller de electronica.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>375b1810-03ba-4e6a-bd91-1680fad9db42</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>R_Photo</value>
+      <footprint>OptoDevice:R_LDR_5.0x4.1mm_P3mm_Vertical</footprint>
+      <libsource lib="Device" part="R_Photo" description="Photoresistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCB taller de electronica.kicad_sch"/>
+      <property name="ki_description" value="Photoresistor"/>
+      <property name="ki_keywords" value="resistor variable light sensitive opto LDR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05a7f83b-2668-4e49-97c8-cdc48c5368e2</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push</value>
+      <footprint>Battery:BatteryHolder_Bulgin_BX0036_1xC</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCB taller de electronica.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a892e12c-9156-4e9c-9189-65f133a9e705</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ESP32-DEVKIT-V1</value>
+      <footprint>ESP32-DEVKIT-V1:MODULE_ESP32_DEVKIT_V1</footprint>
+      <fields>
+        <field name="Availability">Not in stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/ESP32-DEVKIT-V1/Do+it/view-part/?ref=eda</field>
+        <field name="Description">
+Dual core, Wi-Fi: 2.4 GHz up to 150 Mbits/s,BLE (Bluetooth Low Energy) and legacy Bluetooth, 32 bits, Up to 240 MHz
+</field>
+        <field name="MANUFACTURER">DOIT</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">6.8 mm</field>
+        <field name="MF">Do it</field>
+        <field name="MP">ESP32-DEVKIT-V1</field>
+        <field name="PARTREV">N/A</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/ESP32-DEVKIT-V1/Do+it/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="esp32-devkit" part="ESP32-DEVKIT-V1" description=""/>
+      <property name="MF" value="Do it"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="6.8 mm"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/ESP32-DEVKIT-V1/Do+it/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="N/A"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/ESP32-DEVKIT-V1/Do+it/view-part/?ref=snap"/>
+      <property name="MP" value="ESP32-DEVKIT-V1"/>
+      <property name="Description" value="&#xA;Dual core, Wi-Fi: 2.4 GHz up to 150 Mbits/s,BLE (Bluetooth Low Energy) and legacy Bluetooth, 32 bits, Up to 240 MHz&#xA;"/>
+      <property name="Availability" value="Not in stock"/>
+      <property name="MANUFACTURER" value="DOIT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCB taller de electronica.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>012758f4-1213-4dcf-b891-aa5cd8eb526f</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>mh-cd42</value>
+      <libsource lib="cd42" part="mh-cd42" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PCB taller de electronica.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca6d1f59-d9e0-42e4-bcdc-ebe06169c107</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Barrel_Jack_Switch">
+      <description>DC Barrel Jack with an internal switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack_Switch</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Socket">
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Socket">
+      <description>Generic connector, single row, 01x04, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery">
+      <description>Multiple-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Photo">
+      <description>Photoresistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*LDR*</fp>
+        <fp>R?LDR*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Photo</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="cd42" part="mh-cd42">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">mh-cd42</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="BAT" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="OUT-5V" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="esp32-devkit" part="ESP32-DEVKIT-V1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-DEVKIT-V1</field>
+        <field name="Footprint">ESP32-DEVKIT-V1:MODULE_ESP32_DEVKIT_V1</field>
+        <field name="MF">Do it</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">6.8 mm</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/ESP32-DEVKIT-V1/Do+it/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">N/A</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/ESP32-DEVKIT-V1/Do+it/view-part/?ref=snap</field>
+        <field name="MP">ESP32-DEVKIT-V1</field>
+        <field name="Description">
+Dual core, Wi-Fi: 2.4 GHz up to 150 Mbits/s,BLE (Bluetooth Low Energy) and legacy Bluetooth, 32 bits, Up to 240 MHz
+</field>
+        <field name="Availability">Not in stock</field>
+        <field name="MANUFACTURER">DOIT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="D15" type="bidirectional"/>
+        <pin num="4" name="D2" type="bidirectional"/>
+        <pin num="5" name="D4" type="bidirectional"/>
+        <pin num="6" name="RX2" type="input"/>
+        <pin num="7" name="TX2" type="output"/>
+        <pin num="8" name="D5" type="bidirectional"/>
+        <pin num="9" name="D18" type="bidirectional"/>
+        <pin num="10" name="D19" type="bidirectional"/>
+        <pin num="11" name="D21" type="bidirectional"/>
+        <pin num="12" name="RX0" type="input"/>
+        <pin num="13" name="TX0" type="output"/>
+        <pin num="14" name="D22" type="bidirectional"/>
+        <pin num="15" name="D23" type="bidirectional"/>
+        <pin num="16" name="EN" type="input"/>
+        <pin num="17" name="VP" type="bidirectional"/>
+        <pin num="18" name="VN" type="bidirectional"/>
+        <pin num="19" name="D34" type="bidirectional"/>
+        <pin num="20" name="D35" type="bidirectional"/>
+        <pin num="21" name="D32" type="bidirectional"/>
+        <pin num="22" name="D33" type="bidirectional"/>
+        <pin num="23" name="D25" type="bidirectional"/>
+        <pin num="24" name="D26" type="bidirectional"/>
+        <pin num="25" name="D27" type="bidirectional"/>
+        <pin num="26" name="D14" type="bidirectional"/>
+        <pin num="27" name="D12" type="bidirectional"/>
+        <pin num="28" name="D13" type="bidirectional"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="VIN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ssd1306" part="SSD1306">
+      <description>SSD1306 OLED</description>
+      <footprints>
+        <fp>SSD1306-128x64_OLED:SSD1306</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Brd</field>
+        <field name="Value">SSD1306</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="VCC" type="input"/>
+        <pin num="3" name="SCL" type="input"/>
+        <pin num="4" name="SDA" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+    <library logical="cd42">
+      <uri>C:\Users\jacob\OneDrive\Escritorio\PCB taller de electronica/libs/mh-cd42/mh-cd42/cd42.kicad_sym</uri>
+    </library>
+    <library logical="esp32-devkit">
+      <uri>C:\Users\jacob\OneDrive\Escritorio\PCB taller de electronica/libs/ESP32-DEVKIT-V1/ESP32-DEVKIT-V1.kicad_sym</uri>
+    </library>
+    <library logical="ssd1306">
+      <uri>C:\Users\jacob\OneDrive\Escritorio\PCB taller de electronica/libs/KiCad-SSD1306-128x64-master/library/SSD1306-128x64_OLED.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="Brd1" pin="2" pinfunction="VCC" pintype="input"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="3V3" pintype="output"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="VIN" pintype="input"/>
+      <node ref="U2" pin="6" pinfunction="OUT-5V" pintype="power_out"/>
+    </net>
+    <net code="3" name="+BATT">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="BAT" pintype="passive"/>
+    </net>
+    <net code="4" name="+VDC">
+      <node ref="J5" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="5" name="/d4">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="D4" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/d25">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="D25" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/scl">
+      <node ref="Brd1" pin="3" pinfunction="SCL" pintype="input"/>
+      <node ref="U1" pin="14" pinfunction="D22" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/sda">
+      <node ref="Brd1" pin="4" pinfunction="SDA" pintype="input"/>
+      <node ref="U1" pin="11" pinfunction="D21" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="GND">
+      <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="Brd1" pin="1" pinfunction="GND" pintype="input"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="2" pintype="passive"/>
+      <node ref="J5" pin="3" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="29" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(U1-D32)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="D32" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="unconnected-(J1-Pin_4-Pad4)">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="13" name="unconnected-(U1-D2-Pad4)">
+      <node ref="U1" pin="4" pinfunction="D2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="14" name="unconnected-(U1-D5-Pad8)">
+      <node ref="U1" pin="8" pinfunction="D5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(U1-D12-Pad27)">
+      <node ref="U1" pin="27" pinfunction="D12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(U1-D13-Pad28)">
+      <node ref="U1" pin="28" pinfunction="D13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(U1-D14-Pad26)">
+      <node ref="U1" pin="26" pinfunction="D14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(U1-D15-Pad3)">
+      <node ref="U1" pin="3" pinfunction="D15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(U1-D18-Pad9)">
+      <node ref="U1" pin="9" pinfunction="D18" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(U1-D19-Pad10)">
+      <node ref="U1" pin="10" pinfunction="D19" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(U1-D23-Pad15)">
+      <node ref="U1" pin="15" pinfunction="D23" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(U1-D26-Pad24)">
+      <node ref="U1" pin="24" pinfunction="D26" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(U1-D27-Pad25)">
+      <node ref="U1" pin="25" pinfunction="D27" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(U1-D33-Pad22)">
+      <node ref="U1" pin="22" pinfunction="D33" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(U1-D34-Pad19)">
+      <node ref="U1" pin="19" pinfunction="D34" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(U1-D35-Pad20)">
+      <node ref="U1" pin="20" pinfunction="D35" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(U1-EN-Pad16)">
+      <node ref="U1" pin="16" pinfunction="EN" pintype="input+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(U1-RX0-Pad12)">
+      <node ref="U1" pin="12" pinfunction="RX0" pintype="input+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(U1-RX2-Pad6)">
+      <node ref="U1" pin="6" pinfunction="RX2" pintype="input+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(U1-TX0-Pad13)">
+      <node ref="U1" pin="13" pinfunction="TX0" pintype="output+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(U1-TX2-Pad7)">
+      <node ref="U1" pin="7" pinfunction="TX2" pintype="output+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U1-VN-Pad18)">
+      <node ref="U1" pin="18" pinfunction="VN" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U1-VP-Pad17)">
+      <node ref="U1" pin="17" pinfunction="VP" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>

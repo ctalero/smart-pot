@@ -1,0 +1,11 @@
+Info: Procesando el símbolo 'Brd1:'.
+Info: Procesando el símbolo 'R1:'.
+Info: Procesando el símbolo 'U1:ESP32-DEVKIT-V1:MODULE_ESP32_DEVKIT_V1'.
+Info: Procesando el símbolo 'U2:SOP127P600X175-9N'.
+Error: No puede añadirse Brd1 (no se ha asignado huella).
+Error: No puede añadirse R1 (no se ha asignado huella).
+Error: No puede añadirse U1 (no se ha encontrado la huella 'ESP32-DEVKIT-V1:MODULE_ESP32_DEVKIT_V1').
+Error: No puede añadirse U2 (no se ha encontrado la huella 'SOP127P600X175-9N').
+
+
+Info: Número de avisos: 0, errores: 4.
